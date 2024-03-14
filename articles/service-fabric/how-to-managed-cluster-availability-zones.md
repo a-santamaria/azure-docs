@@ -200,7 +200,7 @@ Throughout the process, you can check the `getazresiliencystatus` API to retriev
    }
    ```
 >[!NOTE]
-> The scale process on the primary node type will take longer because adding and removing each node will trigger a service fabric cluster upgrade
+> The scaling process for the primary node type will require additional time, as each addition or removal of a node will initiate a service fabric cluster upgrade.
 
 6) Mark the cluster resilient to zone failures
 
